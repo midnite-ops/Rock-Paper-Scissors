@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(183, 181, 181);
+}
+.game{
+    width: 24px;
+}
+.play, .reset{
+    padding: 8px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.reset{
+    background-color: red;
+    color: white;
+}
