@@ -41,7 +41,7 @@ function myMove(pickedMove){
         myScore.ties += 1;
     }
     const jsText = document.querySelector('.js-move');
-    jsText.innerHTML = `You: <img class = "game" src = 'images/${pickedMove}.png'> Computer: <img class = "game" src = images/${computerMove}.png>`
+    jsText.innerHTML = `You: <img class = "game" src = 'images/${pickedMove}.png'> Jesse: <img class = "game" src = images/${computerMove}.png>`
 
     const jsText2 = document.querySelector('.js-outcome');
     jsText2.innerHTML = `${result}`;
